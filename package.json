@@ -1,0 +1,20 @@
+{
+  "name": "formulario de cadastro",
+  "version": "1.0.0",
+  "description": "Formulário de cadastro simples utilizando o conceito de mobile first.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch style.scss",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eternamenteneutro/formulario-de-cadastro.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eternamenteneutro/formulario-de-cadastro/issues"
+  },
+  "homepage": "https://github.com/eternamenteneutro/formulario-de-cadastro#readme"
+}
