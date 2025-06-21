@@ -1,11 +1,11 @@
 {
-  "name": "formulario de cadastro",
+  "name": "formulario-de-cadastro",
   "version": "1.0.0",
   "description": "Formulário de cadastro simples utilizando o conceito de mobile first.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch style.scss",
+    "sass": "sass --watch style.scss style.css"
   },
   "repository": {
     "type": "git",
