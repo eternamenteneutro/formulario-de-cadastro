@@ -1,7 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 45% 55%;
+  row-gap: 40px;
+  width: 100%;
+  height: 100%;
+}
+.grid .label-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-row: 1;
+  width: 100%;
+  height: 100%;
+  background-color: #098171;
+}
+.grid .label-start h1 {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.grid .label-start i {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.grid .formulario {
+  grid-row: 2;
+  width: 100%;
+  height: 100%;
+}
+.grid .formulario .title {
+  display: none;
+}
+.grid .formulario .form-group {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.grid .formulario .form-group input {
+  width: 100%;
+  height: 50px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f7ee;
+  border: none;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.grid .formulario .form-group input:active {
+  border: 2px solid #098171;
+}
+.grid .formulario .form-group input:focus {
+  border: 2px solid #098171;
 }
 
 /*# sourceMappingURL=style.css.map */
